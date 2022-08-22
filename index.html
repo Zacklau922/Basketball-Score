@@ -1,0 +1,51 @@
+<!-- <html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello World:</h1>
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">Add
+            <button id="save-btn" onclick="save()">Record</button>
+            <p id="save-el">History : </p>
+        </div>
+        <script 
+        src="index.js">
+        </script>
+    </body>
+</html> -->
+
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 >HOME</h3>
+                <h5 id="countHome"> 0 </h5>
+                <button onclick="homeplus1()"> +1 </button>
+                <button onclick="homeplus2()"> +2 </button>
+                <button onclick="homeplus3()"> +3 </button>
+            </div>
+            <div>
+                <h4 >GUEST</h4>
+                <h6 id="countGuess"> 0 </h6>
+                <button onclick="guestplus1()"> +1 </button>
+                <button onclick="guestplus2()"> +2 </button>
+                <button onclick="guestplus3()"> +3 </button>
+            </div>      
+        </div>
+        
+        <div class="container2">
+            <button2 onclick="save()"> SAVE </button2>
+            <button2 onclick="newgame()"> NEW GAME </button2>
+        </div>
+        <p id="recordScore"> Records: </p>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+

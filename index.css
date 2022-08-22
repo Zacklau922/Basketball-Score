@@ -1,0 +1,139 @@
+/* body {
+    background-image: url("12.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid1px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: blue;
+}
+
+
+#save-el {
+    font-weight: bold;
+} */
+
+
+
+body {
+    background-image: url("123.png");
+    text-align: center;
+    font-family: Verdana
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: tomato;
+    background: black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+h6 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: tomato;
+    background: black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+button2 {
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 1;
+    border-radius: 10px;
+    background: green;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium'
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 11px;
+    color: white;
+    font-weight: 1;
+    background: transparent;
+    border-radius: 6px;
+    width: 26px;
+}
+
+p {
+    color: white;
+    font-size: 11px;
+}
